@@ -21,7 +21,7 @@ while($fila = mysqli_fetch_array($peticion)){
     echo "<h3>  <a href='producto.php?id=".$fila["id"]."'> ".$fila["nombre"]."</h3> </a>";
     echo "<p>".$fila["descripcion"]." </p>";
     echo "<p> Precio $".$fila["precio"]." </p>";
-
+    echo("  <input type='number' value='1' min='1' max='10' id='num".$fila["id"]."'/>  "); // en el maximo podemos especificar y validar de una vez cuanto es el maximo en inventario
 
     echo "  <a href='producto.php?id=".$fila["id"]."'> <button>Mas informacion</button></a> ";
     echo "<button class='botoncompra' value='".$fila["id"]."'>Comprar ahora</button> ";

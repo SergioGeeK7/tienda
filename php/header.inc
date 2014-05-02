@@ -33,4 +33,3 @@ if(!isset($_SESSION["contador"])){
         <a href="confirmar.php"><button>Confirmar compra</button></a>
 
         </div>
-<?php

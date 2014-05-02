@@ -1,5 +1,5 @@
-<a href="">Gestionar pedidos </a>
-<a href="">Gestionar clientes</a>
-<a href="">Gestionar productos</a>
-<?php
+<?php include "header.inc"; ?>
 
+
+
+<?php include "footer.inc"; ?>

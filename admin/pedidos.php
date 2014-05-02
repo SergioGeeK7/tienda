@@ -1,9 +1,9 @@
 
 
-<table border="1">
+<table>
 
 <?php
-
+include "header.inc";
 include "../php/config.inc.php";
 
 
@@ -50,3 +50,4 @@ mysqli_close($conexion);
 
 
 echo "</table>";
+include "footer.inc";

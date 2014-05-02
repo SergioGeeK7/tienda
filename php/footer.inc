@@ -15,3 +15,4 @@
 <?php
 
 
+include "log.php";
